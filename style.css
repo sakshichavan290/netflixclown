@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+
+}
+body{
+    background-color: black;
+}
+.flex{
+    display: flex;
+}
+
+
+.hero{
+    
+    background-image: url(homepage.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    opacity: 0.5;
+    
+    background-position: center;
+    background-color: black;
+    padding: 1rem;
+}
+.nav-bar{
+    background:transparent;
+}
+.logo{
+    background: transparent;
+}
+.logo img{
+    width: 12rem;
+    height: 4rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    position: relative;
+    z-index: 10;
+    display: block;
+    margin-left: 20rem;
+    margin-top: 1rem;
+
+}
+.logo h1{
+    color: white;
+}
+.lan{
+    border-radius: 0.2rem;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    width: 90px;
+    height: 30px;
+    margin-left: 40rem;
+    margin-top: 2rem;
+    
+}
+.sign{
+    border: 2px solid transparent;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border-radius: 0.2rem;
+    height: 30px;
+    width: 80px;
+    margin-left: 1rem;
+}
+.sign:hover{
+    background-color: white;
+    color: red;
+}
+.info{
+    text-align: center;
+    color: white;
+}
+.info h1{
+    font-size: 4rem;
+    margin-top: 10rem;
+    font-weight: 700;
+    font-family: 'Martel Sans',sans-serif;
+}
+.info h5{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.info h4{
+    margin-top: 1rem;
+    font-size: 1.3rem ;
+    font-weight: 100;
+}
+.start{
+    border: 2px solid transparent;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 0.2rem;
+    height: 45px;
+    width: 120px;
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+    font-size: 1rem;
+}
+.start:hover{
+    background-color: white;
+    color: red;
+}
+.box{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    height: 30px;
+    width: 300px;
+    text-align: top-left;
+    margin-top: 2.5rem;
+    background: whitesmoke;
+    color: white;
+    font-weight: 200;
+    font-size: 12px;
+    border: 2px solid white;
+    padding: 8px 20px;
+
+}
+.email:hover{
+    background: transparent;
+}
+.seperation{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(80, 78, 78);
+}
+.container{
+    color: white;
+    height: 700px;
+    width: 100;
+    padding: 10px 10px;
+}
+.text h1{
+font-size: 55px;
+margin-left: 10rem;
+margin-top: 12rem;
+margin-bottom: 1rem;
+font-weight: 700;
+font-family: 'Poppins',sans-serif;
+}
+.text p{
+    font-size: 20px;
+    margin-left: 10rem;
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.5;
+}
+.image img{
+    height: 500px;
+    width: 500px;
+
+}
+.mobile img{
+    height: 500px;
+    width: 600px;
+}
+.faqbox{
+    color: white;
+    text-align: center;
+    height: 650px;
+}
+.faqbox h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.space{
+    text-align: left;
+    height: 40px;
+    width: 80%;
+    border: 2px solid transparent;
+    justify-content: center;
+    padding: 10px 10px;
+    align-items: center;
+   margin-left: 10rem;
+    background-color: rgb(60, 59, 59);
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-family: 'Poppins',sans-serif;
+}
+.space:hover{
+   background-color:  rgb(155, 150, 150);
+}
+.signin h4{
+    margin-top: 2rem;
+}
+.help{
+    margin-top: 4rem;
+    margin-left: 6rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.help a{
+    color: white;
+}
+.helpsection{
+    margin-left: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+    margin-top: 1rem;
+}
+.helpsection a{
+    color: white;
+}
+.lang{
+    border-radius: 0.2rem;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    width: 90px;
+    height: 30px;
+   margin-left: 6rem;
+    margin-top: 2rem;
+
+}
+.india span{
+    color: white;
+    margin-left: 6rem;
+    padding: 1rem 1rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
